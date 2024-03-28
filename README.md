@@ -13,23 +13,14 @@ Semester: 2024 Spring
 ![image](https://github.com/Xuedinan/CS5004Lab05/assets/144306521/eac86e0f-83fa-451d-af65-9d30d615889f)
  
 ### Driver test process
-1. create LinkedList, Task, date, ExpiredDate object with valid, and invalid input
-2. add more task
-3. remove single task
-4. count all task
-5. revise task and date
-5. get task by condition
-6. remove task by condition
-7. print out task by condition
-8. print in period task
-9. change date on task
-10. count task by MAP and Filter method
-11. get tasks and create Linked List from reading file
-12. compare tasks and get higher priority one
-13. print similar content task
-14. implement MAP to convert linked list to cotent only linked list
-15. remove all task
-16. print all task
+1. create employees, organization
+2. add employees to organization
+3. check total number of employees
+4. get each employee information
+5. create a list with employee's name only
+6. filter employee with certain given name
+7. check employee within given salary range
+8. get percentage of given gender employee out of all employees
 
 ### Writing assignment
 
@@ -41,12 +32,7 @@ Another learning of this week is about the hierarchy tree structure, it's really
 In my program, I also apply extension as;
 - Use driver and JUnit testing
 - Additional functions
-	- time period filter 
-	- similar task checking instead of exactly same task checking
- 	- implements count function by both of fold and filter method
-- Use more ENUM with more complex elements
-- Create clear driver for testing
-- More design elements, ToDoListTools, Status ENUM, Multiple interfaces
-- Read / Write file with appropriate data format, could generate LinkedList automatically from reading file
-- Code defensively for most of methods
-- Use interface over abstract and inheritance for future extension 
+	- check employee within given salary range
+ 	- get percentage of Male employee out of all employees
+- Extra task
+	- filter by employee's name  
