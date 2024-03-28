@@ -3,6 +3,11 @@ package AbstractingTheTree;
 import java.util.List;
 import java.util.function.Predicate;
 
+/* Course: CS5004
+ * Semester: Spring 2024
+ * Name: Xuedinan Gao
+ * Assignment: Lab 06
+ */
 
 /**
  * This interface represents an organization. It includes methods that an
@@ -21,17 +26,6 @@ public interface Organization {
    *                       be an existing employee
    */
   void addEmployee(String name, double pay, Gender gender, String supervisorName);
-  
-  
-  /*ADDED FOR CLASS DEMONSTRATION*/
-  /**
-   * Terminate an employee to this organization with the given specifics. 
-   * If the employee doesn't exist, return false else return true.
-   * @param name name of employee to be added
-   */
-  //Removed for new implementation
-  //void terminateEmployee(String name, Employee supervisorName);
-
 
   /**
    * Add a contract employee to this organization with the given specifics
@@ -54,7 +48,14 @@ public interface Organization {
    * this organization.
    * @return the number of employees in this organization
    */
-  int getSize();
+  int getTotal();
+  
+  /**
+   * Get the size of the organization by condition, i.e. the total number of employees has certain salary in
+   * this organization.
+   * @return the number of employees in this organization
+   */
+  int getSize(Predicate<Employee> condition);
 
   /**
    * Get the number of employees of the specified gender in this organization.
@@ -71,7 +72,7 @@ public interface Organization {
    List<String> allEmployees();
   
   //Removed for new implementation
-  // List<String> allEmployees(Predicate<Employee> predicate);
+   List<String> allEmployees(Predicate<Employee> predicate);
 
   /**
    * Return the number of employees whose annual pay is above the specified
@@ -81,7 +82,7 @@ public interface Organization {
    * amount
    */
    //Removed for new implementation
-  //int countPayAbove(double amount);
+  int countPayAbove(double amount);
 
   /**
    * Return the number of employees who are scheduled to be terminated before
@@ -93,5 +94,7 @@ public interface Organization {
    * specific date
    */
    //Removed for new implementation
- // int terminatedBefore(int date, int month, int year);
+  int terminatedBefore(int date, int month, int year);
+  
+  double genderPercent(Gender gender);
 }

@@ -3,6 +3,12 @@ package AbstractingTheTree;
 import java.util.List;
 import java.util.function.Predicate;
 
+/* Course: CS5004
+ * Semester: Spring 2024
+ * Name: Xuedinan Gao
+ * Assignment: Lab 06
+ */
+
 
 /**
  * This interface represents a single employee in the organization. Every
@@ -71,6 +77,7 @@ public interface Employee {
   String getEmploymentEndDate();
   
   void printEmployees();
+
 
 
 }

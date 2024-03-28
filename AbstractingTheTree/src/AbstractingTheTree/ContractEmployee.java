@@ -4,6 +4,11 @@ import java.time.DateTimeException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
+/* Course: CS5004
+ * Semester: Spring 2024
+ * Name: Xuedinan Gao
+ * Assignment: Lab 06
+ */
 
 /**
  * This class represents an employee who works on a term-limited contract

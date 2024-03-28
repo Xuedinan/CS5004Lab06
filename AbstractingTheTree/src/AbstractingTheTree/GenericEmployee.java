@@ -5,6 +5,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
+/* Course: CS5004
+ * Semester: Spring 2024
+ * Name: Xuedinan Gao
+ * Assignment: Lab 06
+ */
+
 /**
  * This class represents the data and operations of any employee. It defines
  * all the operations that either ought to be common to all implementations,

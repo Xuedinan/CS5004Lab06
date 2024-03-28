@@ -7,7 +7,11 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
-//import util.Gender;
+/* Course: CS5004
+ * Semester: Spring 2024
+ * Name: Xuedinan Gao
+ * Assignment: Lab 06
+ */
 
 /**
  * This class represents an employee in a supervisory role. This means that this
@@ -94,4 +98,5 @@ public class Supervisor extends GenericEmployee {
 		  e.printEmployees();
 	  }
   }
+  
 }

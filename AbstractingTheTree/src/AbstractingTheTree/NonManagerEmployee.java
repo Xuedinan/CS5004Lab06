@@ -1,6 +1,10 @@
 package AbstractingTheTree;
-import java.util.ArrayList;
-import java.util.List;
+
+/* Course: CS5004
+ * Semester: Spring 2024
+ * Name: Xuedinan Gao
+ * Assignment: Lab 06
+ */
 
 /**
  * This class  represents an employee that does not have any managerial
@@ -36,4 +40,5 @@ public class NonManagerEmployee extends GenericEmployee{
   {
 	  System.out.println(this);
   }
+
 }
