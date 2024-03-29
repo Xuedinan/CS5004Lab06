@@ -10,7 +10,6 @@ You'll have to fix the class declaration and complete this file.
  */
 
 
-
 package AbstractingTheTree;
 
 // implements TreeNode and provide filed attributes for child class

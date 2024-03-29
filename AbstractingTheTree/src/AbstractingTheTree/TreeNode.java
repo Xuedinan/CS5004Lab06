@@ -19,7 +19,6 @@ The only thing you'll have to do is add comments and imports.
 public interface TreeNode<T>
 	{
 	
-	
 	/**
 	 * Add the given node as a child to a node in this tree 
 	 * identified by the predicate. If no node is identified by the predicate the tree 
