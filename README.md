@@ -7,10 +7,12 @@ Semester: 2024 Spring
 ### My submission includes following directory/files
 
 - program\
-![image](https://github.com/Xuedinan/CS5004Lab05/assets/144306521/ce375fa4-0d49-4735-8cbc-4e76d01da63d)
+![image](https://github.com/Xuedinan/CS5004Lab06/assets/144306521/de52e031-86b9-4b0d-96f9-e6cc7c861d1b)
+
 
 - test\
-![image](https://github.com/Xuedinan/CS5004Lab05/assets/144306521/eac86e0f-83fa-451d-af65-9d30d615889f)
+![image](https://github.com/Xuedinan/CS5004Lab06/assets/144306521/887b149f-34b0-49bb-9b32-8fbfb478ae79)
+
  
 ### Driver test process
 1. create employees, organization
